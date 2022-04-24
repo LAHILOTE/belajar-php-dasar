@@ -14,4 +14,13 @@ echo "\n";
 
 echo "Is Name Null? : ";
 var_dump(is_null($name));
+
+
+$contoh = "Mudher";
+unset($contoh);
+
+$contoh = "Domili";
+$contoh = null;
+
+var_dump(isset($contoh));
 ?>
