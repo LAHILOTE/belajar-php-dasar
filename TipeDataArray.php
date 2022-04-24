@@ -61,5 +61,7 @@ $budi = [
     "religion" => "Islam"
 ];
 
-var_dump($mudher,$budi)
+var_dump($mudher,$budi);
+
+var_dump($mudher["address"]["city"]);
 ?>
