@@ -28,7 +28,6 @@ $mudher = array(
 );
 
 var_dump($mudher);
-
 var_dump($mudher["age"]);
 
 $budi = [
@@ -39,4 +38,28 @@ $budi = [
 var_dump($budi);
 
 
+
+$mudher = array(
+    "id" => "Mudher",
+    "name" => "Mudher Domili",
+    "age" => 27,
+    "address" => array(
+        "city" => "Gorontalo",
+        "country" => "Indonesia"
+    ),
+    "religion" => "Islam"
+);
+
+$budi = [
+    "id" => "budi",
+    "name" => "Budi Test",
+    "age" => 35,
+    "address" => [
+        "city" => "Gorontalo",
+        "country" => "Indonesia"
+    ],
+    "religion" => "Islam"
+];
+
+var_dump($mudher,$budi)
 ?>
