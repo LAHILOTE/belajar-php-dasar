@@ -13,4 +13,12 @@ var_dump($valueInteger);
 
 $valueFloat = (float)"100.123";
 var_dump($valueFloat);
+
+$name = "Mudher";
+echo $name[0] . PHP_EOL;
+echo $name[1] . PHP_EOL;
+echo $name[2] . PHP_EOL;
+echo $name[3] . PHP_EOL;
+echo $name[4] . PHP_EOL;
+echo $name[5] . PHP_EOL;
 ?>
