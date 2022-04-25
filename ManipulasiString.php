@@ -29,6 +29,10 @@ echo $name[5] . PHP_EOL;
 
 
 $name = "Mudher";
+echo "Hello ". $name . ", Selamat Belajar" . PHP_EOL;
 echo "Hello $name, Selamat Belajar" . PHP_EOL;
 
+
+$var = "var";
+echo "This is {$var}s" . PHP_EOL;
 ?>
