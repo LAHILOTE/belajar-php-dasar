@@ -2,11 +2,11 @@
 
 $nilai = "C";
 
-if($nilai == "A"){
+if ($nilai == "A") {
     echo "Anda lulus dengan sangat baik" . PHP_EOL;
-} elseif ($nilai == "B" || $nilai == "C"){
+} elseif ($nilai == "B" || $nilai == "C") {
     echo "Anda Lulus" . PHP_EOL;
-} elseif ($nilai == "D"){
+} elseif ($nilai == "D") {
     echo "Anda tidak Lulus" . PHP_EOL;
 } else {
     echo "Mungkin Anda salah jurusan" . PHP_EOL;
@@ -14,17 +14,33 @@ if($nilai == "A"){
 
 echo PHP_EOL;
 
-switch($nilai){
+switch ($nilai) {
     case "A":
         echo "Anda lulus dengan sangat baik" . PHP_EOL;
         break;
-        case "B":
-        case "C":
-            echo "Anda lulus" . PHP_EOL;
-            break;
-            case "D":
-                echo "Anda tidak Lulus" . PHP_EOL;
-                break;
-                default:
-                echo "Mungkin anda salah jurusan" . PHP_EOL;
+    case "B":
+    case "C":
+        echo "Anda lulus" . PHP_EOL;
+        break;
+    case "D":
+        echo "Anda tidak Lulus" . PHP_EOL;
+        break;
+    default:
+        echo "Mungkin anda salah jurusan" . PHP_EOL;
 }
+
+
+switch ($nilai):
+    case "A":
+        echo "Anda lulus dengan sangat baik" . PHP_EOL;
+        break;
+    case "B":
+    case "C":
+        echo "Anda lulus" . PHP_EOL;
+        break;
+    case "D":
+        echo "Anda tidak Lulus" . PHP_EOL;
+        break;
+    default:
+        echo "Mungkin anda salah jurusan" . PHP_EOL;
+endswitch;
