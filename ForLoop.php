@@ -18,11 +18,18 @@ echo PHP_EOL;
 
 // Kondisi Perulangan Dengan Init Statement
 echo "Perulangan Dengan Init Statement";
-echo "-------------------------";
+echo "--------------------------------";
 for($counter = 1; $counter <= 10; ){
     echo "Hello For Loop : " . $counter . PHP_EOL;
     $counter++;
 }
 
+echo PHP_EOL;
 
+// Kondisi Perulangan Dengan Post Statement
+echo "Perulangan Dengan Post Statement";
+echo "--------------------------------";
+for($counter = 1; $counter <= 10; $counter++ ){
+    echo "Hello For Loop : " . $counter . PHP_EOL;
+}
 ?>
