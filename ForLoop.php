@@ -5,8 +5,8 @@
 // }
 
 // Perulangan Dengan Kondisi
-echo "Perulangan Dengan Kondisi";
-echo "-------------------------";
+echo "Perulangan Dengan Kondisi".PHP_EOL;
+echo "-------------------------".PHP_EOL;
 $counter = 1;
 
 for ( ; $counter <= 10; ){
@@ -17,8 +17,8 @@ for ( ; $counter <= 10; ){
 echo PHP_EOL;
 
 // Kondisi Perulangan Dengan Init Statement
-echo "Perulangan Dengan Init Statement";
-echo "--------------------------------";
+echo "Perulangan Dengan Init Statement".PHP_EOL;
+echo "--------------------------------".PHP_EOL;
 for($counter = 1; $counter <= 10; ){
     echo "Hello For Loop : " . $counter . PHP_EOL;
     $counter++;
@@ -27,9 +27,9 @@ for($counter = 1; $counter <= 10; ){
 echo PHP_EOL;
 
 // Kondisi Perulangan Dengan Post Statement
-echo "Perulangan Dengan Post Statement";
-echo "--------------------------------";
+echo "Perulangan Dengan Post Statement" .PHP_EOL;
+echo "--------------------------------".PHP_EOL;
 for($counter = 1; $counter <= 10; $counter++ ){
-    echo "Hello For Loop : " . $counter . PHP_EOL;
+    echo "Hello For Loop - " . $counter . PHP_EOL;
 }
 ?>
